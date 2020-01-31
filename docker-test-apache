@@ -11,3 +11,6 @@ RUN apt-get update && \
 
 #Adding CMD command
 CMD ["echo","Docker CMD command demo"]
+
+#Adding ENTRYPOINT command
+ENTRYPOINT ["echo","Docker ENTRYPOINT demo"]
